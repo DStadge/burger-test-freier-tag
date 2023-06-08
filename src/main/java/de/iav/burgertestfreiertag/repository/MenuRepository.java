@@ -1,11 +1,13 @@
 package de.iav.burgertestfreiertag.repository;
 
 import de.iav.burgertestfreiertag.model.Menu;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
+@Repository
 public class MenuRepository {
 
     private List<Menu> menuBoard = new ArrayList<>();
